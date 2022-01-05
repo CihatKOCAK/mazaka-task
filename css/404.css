@@ -10,3 +10,18 @@
 four-0-four-msg a{
     color: #383838;
 }
+
+
+
+/* Tablet */
+@media (min-width: 481px) and (max-width: 768px) {
+    .four-0-four-image{
+        width: 60%;
+    }
+}
+
+@media (max-width: 480px) {
+    .four-0-four-image{
+        width: 40%;
+    }
+}

@@ -9,325 +9,332 @@
     <link rel="stylesheet" href="css/product.css" />
   </head>
   <body>
-    <nav class="navbar"></nav>
+    <div class="container">
+      <nav class="navbar"></nav>
 
-    <section class="product-details">
-      <div class="image-slider">
-        <div class="product-images">
-          <img src="./assets/img/product image 1.png" class="active" alt="" />
-          <img src="./assets/img/product image 2.png" alt="" />
-          <img src="./assets/img/product image 3.png" alt="" />
-          <img src="./assets/img/product image 4.png" alt="" />
+      <section class="product-details">
+        <div class="image-slider">
+          <div class="product-images">
+            <img src="./assets/img/product image 1.png" class="active" alt="" />
+            <img src="./assets/img/product image 2.png" alt="" />
+            <img src="./assets/img/product image 3.png" alt="" />
+            <img src="./assets/img/product image 4.png" alt="" />
+          </div>
         </div>
-      </div>
-      <div class="details">
-        <h2 class="product-brand">Calvin Klein</h2>
-        <p class="product-short-des">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur,
-          repudiandae?
+        <div class="details">
+          <h2 class="product-brand">Calvin Klein</h2>
+          <p class="product-short-des">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur,
+            repudiandae?
+          </p>
+          <div class="price-div">
+            <div class="price">
+              <span class="product-price">100TL</span>
+              <span class="product-actual-price">200TL</span>
+            </div>
+            <div class="price-discount">
+              <span class="product-discount">(%50 indirim!)</span>
+            </div>
+          </div>
+
+          <p class="product-sub-heading">beden seçin</p>
+          <input type="radio" name="size" value="xs" id="xs-size" hidden />
+          <label for="xs-size" class="size-radio-btn">xs</label>
+          <input type="radio" name="size" value="s" id="s-size" hidden />
+          <label for="s-size" class="size-radio-btn">s</label>
+          <input type="radio" name="size" value="m" id="m-size" hidden />
+          <label for="m-size" class="size-radio-btn">m</label>
+          <input type="radio" name="size" value="l" id="l-size" hidden />
+          <label for="l-size" class="size-radio-btn">l</label>
+          <input type="radio" name="size" value="xl" id="xl-size" hidden />
+          <label for="xl-size" class="size-radio-btn">xl</label>
+          <input type="radio" name="size" value="xxl" id="xxl-size" hidden />
+          <label for="xxl-size" class="size-radio-btn">xxl</label>
+          <div class="btn-heading">
+            <button class="btn cart-btn">Sepete Ekle</button>
+            <button class="btn">Listeye Ekle</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="detail-des">
+        <h2 class="heading">Tanım:</h2>
+        <p class="des">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, ab.
+          Officiis, necessitatibus dignissimos. Minima laboriosam accusamus
+          illum. Quaerat iure, debitis et velit tempore doloribus eius a animi
+          est, nostrum expedita!Lorem, ipsum dolor sit amet consectetur
+          adipisicing elit. Debitis, ab. Officiis, necessitatibus dignissimos.
+          Minima laboriosam accusamus illum. Quaerat iure, debitis et velit
+          tempore doloribus eius a animi est, nostrum expedita!Lorem, ipsum
+          dolor sit amet consectetur adipisicing elit. Debitis, ab. Officiis,
+          necessitatibus dignissimos. Minima laboriosam accusamus illum. Quaerat
+          iure, debitis et velit tempore doloribus eius a animi est, nostrum
+          expedita!
         </p>
-        <span class="product-price">100TL</span>
-        <span class="product-actual-price">200TL</span>
-        <span class="product-discount">(%50 indirim!)</span>
+      </section>
 
-        <p class="product-sub-heading">beden seçin</p>
-        <input type="radio" name="size" value="xs" id="xs-size" hidden />
-        <label for="xs-size" class="size-radio-btn">xs</label>
-        <input type="radio" name="size" value="s" id="s-size" hidden />
-        <label for="s-size" class="size-radio-btn">s</label>
-        <input type="radio" name="size" value="m" id="m-size" hidden />
-        <label for="m-size" class="size-radio-btn">m</label>
-        <input type="radio" name="size" value="l" id="l-size" hidden />
-        <label for="l-size" class="size-radio-btn">l</label>
-        <input type="radio" name="size" value="xl" id="xl-size" hidden />
-        <label for="xl-size" class="size-radio-btn">xl</label>
-        <input type="radio" name="size" value="xxl" id="xxl-size" hidden />
-        <label for="xxl-size" class="size-radio-btn">xxl</label>
+      <!-- cards-container -->
+      <section class="product">
+        <h2 class="product-category">Gömlekler</h2>
+        <button class="pre-btn">
+          <img src="./assets/img/arrow.png" alt="" />
+        </button>
+        <button class="nxt-btn">
+          <img src="./assets/img/arrow.png" alt="" />
+        </button>
+        <div class="product-container">
+          <div class="product-card">
+            <div class="product-image">
+              <span class="discount-tag">%50 indirim</span>
+              <img src="./assets/img/card2.png" alt="" />
+              <button class="card-btn">Sepete Ekle</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Marka</h2>
+              <p class="product-short-des">Mükemmel bir parça..</p>
+              <span class="price">40 TL</span>
+              <span class="actual-price">80TL</span>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <span class="discount-tag">%50 indirim</span>
+              <img src="./assets/img/card5.png" alt="" />
+              <button class="card-btn">Sepete Ekle</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Marka</h2>
+              <p class="product-short-des">Mükemmel bir parça..</p>
+              <span class="price">40 TL</span>
+              <span class="actual-price">80TL</span>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <span class="discount-tag">%50 indirim</span>
+              <img src="./assets/img/card6.png" alt="" />
+              <button class="card-btn">Sepete Ekle</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Marka</h2>
+              <p class="product-short-des">Mükemmel bir parça..</p>
+              <span class="price">40 TL</span>
+              <span class="actual-price">80TL</span>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <span class="discount-tag">%50 indirim</span>
+              <img src="./assets/img/card8.png" alt="" />
+              <button class="card-btn">Sepete Ekle</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Marka</h2>
+              <p class="product-short-des">Mükemmel bir parça..</p>
+              <span class="price">40 TL</span>
+              <span class="actual-price">80TL</span>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <span class="discount-tag">%50 indirim</span>
+              <img src="./assets/img/card3.png" alt="" />
+              <button class="card-btn">Sepete Ekle</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Marka</h2>
+              <p class="product-short-des">Mükemmel bir parça..</p>
+              <span class="price">40 TL</span>
+              <span class="actual-price">80TL</span>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <span class="discount-tag">%50 indirim</span>
+              <img src="./assets/img/card6.png" alt="" />
+              <button class="card-btn">Sepete Ekle</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Marka</h2>
+              <p class="product-short-des">Mükemmel bir parça..</p>
+              <span class="price">40 TL</span>
+              <span class="actual-price">80TL</span>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <span class="discount-tag">%50 indirim</span>
+              <img src="./assets/img/card7.png" alt="" />
+              <button class="card-btn">Sepete Ekle</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Marka</h2>
+              <p class="product-short-des">Mükemmel bir parça..</p>
+              <span class="price">40 TL</span>
+              <span class="actual-price">80TL</span>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <span class="discount-tag">%50 indirim</span>
+              <img src="./assets/img/card8.png" alt="" />
+              <button class="card-btn">Sepete Ekle</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Marka</h2>
+              <p class="product-short-des">Mükemmel bir parça..</p>
+              <span class="price">40 TL</span>
+              <span class="actual-price">80TL</span>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <span class="discount-tag">%50 indirim</span>
+              <img src="./assets/img/card8.png" alt="" />
+              <button class="card-btn">Sepete Ekle</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Marka</h2>
+              <p class="product-short-des">Mükemmel bir parça..</p>
+              <span class="price">40 TL</span>
+              <span class="actual-price">80TL</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- cards-container -->
+      <section class="product">
+        <h2 class="product-category">Ayakkabılar</h2>
+        <button class="pre-btn">
+          <img src="./assets/img/arrow.png" alt="" />
+        </button>
+        <button class="nxt-btn">
+          <img src="./assets/img/arrow.png" alt="" />
+        </button>
+        <div class="product-container">
+          <div class="product-card">
+            <div class="product-image">
+              <span class="discount-tag">%50 indirim</span>
+              <img src="./assets/img/card9.png" alt="" />
+              <button class="card-btn">Sepete Ekle</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Marka</h2>
+              <p class="product-short-des">Mükemmel bir parça..</p>
+              <span class="price">40 TL</span>
+              <span class="actual-price">80TL</span>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <span class="discount-tag">%50 indirim</span>
+              <img src="./assets/img/card10.png" alt="" />
+              <button class="card-btn">Sepete Ekle</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Marka</h2>
+              <p class="product-short-des">Mükemmel bir parça..</p>
+              <span class="price">40 TL</span>
+              <span class="actual-price">80TL</span>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <span class="discount-tag">%50 indirim</span>
+              <img src="./assets/img/card11.png" alt="" />
+              <button class="card-btn">Sepete Ekle</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Marka</h2>
+              <p class="product-short-des">Mükemmel bir parça..</p>
+              <span class="price">40 TL</span>
+              <span class="actual-price">80TL</span>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <span class="discount-tag">%50 indirim</span>
+              <img src="./assets/img/card12.png" alt="" />
+              <button class="card-btn">Sepete Ekle</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Marka</h2>
+              <p class="product-short-des">Mükemmel bir parça..</p>
+              <span class="price">40 TL</span>
+              <span class="actual-price">80TL</span>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <span class="discount-tag">%50 indirim</span>
+              <img src="./assets/img/card9.png" alt="" />
+              <button class="card-btn">Sepete Ekle</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Marka</h2>
+              <p class="product-short-des">Mükemmel bir parça..</p>
+              <span class="price">40 TL</span>
+              <span class="actual-price">80TL</span>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <span class="discount-tag">%50 indirim</span>
+              <img src="./assets/img/card10.png" alt="" />
+              <button class="card-btn">Sepete Ekle</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Marka</h2>
+              <p class="product-short-des">Mükemmel bir parça..</p>
+              <span class="price">40 TL</span>
+              <span class="actual-price">80TL</span>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <span class="discount-tag">%50 indirim</span>
+              <img src="./assets/img/card11.png" alt="" />
+              <button class="card-btn">Sepete Ekle</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Marka</h2>
+              <p class="product-short-des">Mükemmel bir parça..</p>
+              <span class="price">40 TL</span>
+              <span class="actual-price">80TL</span>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <span class="discount-tag">%50 indirim</span>
+              <img src="./assets/img/card12.png" alt="" />
+              <button class="card-btn">Sepete Ekle</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Marka</h2>
+              <p class="product-short-des">Mükemmel bir parça..</p>
+              <span class="price">40 TL</span>
+              <span class="actual-price">80TL</span>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <span class="discount-tag">%50 indirim</span>
+              <img src="./assets/img/card9.png" alt="" />
+              <button class="card-btn">Sepete Ekle</button>
+            </div>
+            <div class="product-info">
+              <h2 class="product-brand">Marka</h2>
+              <p class="product-short-des">Mükemmel bir parça..</p>
+              <span class="price">40 TL</span>
+              <span class="actual-price">80TL</span>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <button class="btn cart-btn">Sepete Ekle</button>
-        <button class="btn">İstek Listesine Ekle</button>
-      </div>
-    </section>
-
-
-    <section class="detail-des">
-      <h2 class="heading">Tanım:</h2>
-      <p class="des">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, ab.
-        Officiis, necessitatibus dignissimos. Minima laboriosam accusamus illum.
-        Quaerat iure, debitis et velit tempore doloribus eius a animi est,
-        nostrum expedita!Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, ab.
-        Officiis, necessitatibus dignissimos. Minima laboriosam accusamus illum.
-        Quaerat iure, debitis et velit tempore doloribus eius a animi est,
-        nostrum expedita!Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, ab.
-        Officiis, necessitatibus dignissimos. Minima laboriosam accusamus illum.
-        Quaerat iure, debitis et velit tempore doloribus eius a animi est,
-        nostrum expedita!
-      </p>
-    </section>
-
-    <!-- cards-container -->
-    <section class="product">
-      <h2 class="product-category">Gömlekler</h2>
-      <button class="pre-btn">
-        <img src="./assets/img/arrow.png" alt="" />
-      </button>
-      <button class="nxt-btn">
-        <img src="./assets/img/arrow.png" alt="" />
-      </button>
-      <div class="product-container">
-        <div class="product-card">
-          <div class="product-image">
-            <span class="discount-tag">%50 indirim</span>
-            <img src="./assets/img/card2.png" alt="" />
-            <button class="card-btn">Sepete Ekle</button>
-          </div>
-          <div class="product-info">
-            <h2 class="product-brand">Marka</h2>
-            <p class="product-short-des">Mükemmel bir parça..</p>
-            <span class="price">40 TL</span>
-            <span class="actual-price">80TL</span>
-          </div>
-        </div>
-        <div class="product-card">
-          <div class="product-image">
-            <span class="discount-tag">%50 indirim</span>
-            <img src="./assets/img/card5.png" alt="" />
-            <button class="card-btn">Sepete Ekle</button>
-          </div>
-          <div class="product-info">
-            <h2 class="product-brand">Marka</h2>
-            <p class="product-short-des">Mükemmel bir parça..</p>
-            <span class="price">40 TL</span>
-            <span class="actual-price">80TL</span>
-          </div>
-        </div>
-        <div class="product-card">
-          <div class="product-image">
-            <span class="discount-tag">%50 indirim</span>
-            <img src="./assets/img/card6.png" alt="" />
-            <button class="card-btn">Sepete Ekle</button>
-          </div>
-          <div class="product-info">
-            <h2 class="product-brand">Marka</h2>
-            <p class="product-short-des">Mükemmel bir parça..</p>
-            <span class="price">40 TL</span>
-            <span class="actual-price">80TL</span>
-          </div>
-        </div>
-        <div class="product-card">
-          <div class="product-image">
-            <span class="discount-tag">%50 indirim</span>
-            <img src="./assets/img/card8.png" alt="" />
-            <button class="card-btn">Sepete Ekle</button>
-          </div>
-          <div class="product-info">
-            <h2 class="product-brand">Marka</h2>
-            <p class="product-short-des">Mükemmel bir parça..</p>
-            <span class="price">40 TL</span>
-            <span class="actual-price">80TL</span>
-          </div>
-        </div>
-        <div class="product-card">
-          <div class="product-image">
-            <span class="discount-tag">%50 indirim</span>
-            <img src="./assets/img/card3.png" alt="" />
-            <button class="card-btn">Sepete Ekle</button>
-          </div>
-          <div class="product-info">
-            <h2 class="product-brand">Marka</h2>
-            <p class="product-short-des">Mükemmel bir parça..</p>
-            <span class="price">40 TL</span>
-            <span class="actual-price">80TL</span>
-          </div>
-        </div>
-        <div class="product-card">
-          <div class="product-image">
-            <span class="discount-tag">%50 indirim</span>
-            <img src="./assets/img/card6.png" alt="" />
-            <button class="card-btn">Sepete Ekle</button>
-          </div>
-          <div class="product-info">
-            <h2 class="product-brand">Marka</h2>
-            <p class="product-short-des">Mükemmel bir parça..</p>
-            <span class="price">40 TL</span>
-            <span class="actual-price">80TL</span>
-          </div>
-        </div>
-        <div class="product-card">
-          <div class="product-image">
-            <span class="discount-tag">%50 indirim</span>
-            <img src="./assets/img/card7.png" alt="" />
-            <button class="card-btn">Sepete Ekle</button>
-          </div>
-          <div class="product-info">
-            <h2 class="product-brand">Marka</h2>
-            <p class="product-short-des">Mükemmel bir parça..</p>
-            <span class="price">40 TL</span>
-            <span class="actual-price">80TL</span>
-          </div>
-        </div>
-        <div class="product-card">
-          <div class="product-image">
-            <span class="discount-tag">%50 indirim</span>
-            <img src="./assets/img/card8.png" alt="" />
-            <button class="card-btn">Sepete Ekle</button>
-          </div>
-          <div class="product-info">
-            <h2 class="product-brand">Marka</h2>
-            <p class="product-short-des">Mükemmel bir parça..</p>
-            <span class="price">40 TL</span>
-            <span class="actual-price">80TL</span>
-          </div>
-        </div>
-        <div class="product-card">
-          <div class="product-image">
-            <span class="discount-tag">%50 indirim</span>
-            <img src="./assets/img/card8.png" alt="" />
-            <button class="card-btn">Sepete Ekle</button>
-          </div>
-          <div class="product-info">
-            <h2 class="product-brand">Marka</h2>
-            <p class="product-short-des">Mükemmel bir parça..</p>
-            <span class="price">40 TL</span>
-            <span class="actual-price">80TL</span>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- cards-container -->
-    <section class="product">
-      <h2 class="product-category">Ayakkabılar</h2>
-      <button class="pre-btn">
-        <img src="./assets/img/arrow.png" alt="" />
-      </button>
-      <button class="nxt-btn">
-        <img src="./assets/img/arrow.png" alt="" />
-      </button>
-      <div class="product-container">
-        <div class="product-card">
-          <div class="product-image">
-            <span class="discount-tag">%50 indirim</span>
-            <img src="./assets/img/card9.png" alt="" />
-            <button class="card-btn">Sepete Ekle</button>
-          </div>
-          <div class="product-info">
-            <h2 class="product-brand">Marka</h2>
-            <p class="product-short-des">Mükemmel bir parça..</p>
-            <span class="price">40 TL</span>
-            <span class="actual-price">80TL</span>
-          </div>
-        </div>
-        <div class="product-card">
-          <div class="product-image">
-            <span class="discount-tag">%50 indirim</span>
-            <img src="./assets/img/card10.png" alt="" />
-            <button class="card-btn">Sepete Ekle</button>
-          </div>
-          <div class="product-info">
-            <h2 class="product-brand">Marka</h2>
-            <p class="product-short-des">Mükemmel bir parça..</p>
-            <span class="price">40 TL</span>
-            <span class="actual-price">80TL</span>
-          </div>
-        </div>
-        <div class="product-card">
-          <div class="product-image">
-            <span class="discount-tag">%50 indirim</span>
-            <img src="./assets/img/card11.png" alt="" />
-            <button class="card-btn">Sepete Ekle</button>
-          </div>
-          <div class="product-info">
-            <h2 class="product-brand">Marka</h2>
-            <p class="product-short-des">Mükemmel bir parça..</p>
-            <span class="price">40 TL</span>
-            <span class="actual-price">80TL</span>
-          </div>
-        </div>
-        <div class="product-card">
-          <div class="product-image">
-            <span class="discount-tag">%50 indirim</span>
-            <img src="./assets/img/card12.png" alt="" />
-            <button class="card-btn">Sepete Ekle</button>
-          </div>
-          <div class="product-info">
-            <h2 class="product-brand">Marka</h2>
-            <p class="product-short-des">Mükemmel bir parça..</p>
-            <span class="price">40 TL</span>
-            <span class="actual-price">80TL</span>
-          </div>
-        </div>
-        <div class="product-card">
-          <div class="product-image">
-            <span class="discount-tag">%50 indirim</span>
-            <img src="./assets/img/card9.png" alt="" />
-            <button class="card-btn">Sepete Ekle</button>
-          </div>
-          <div class="product-info">
-            <h2 class="product-brand">Marka</h2>
-            <p class="product-short-des">Mükemmel bir parça..</p>
-            <span class="price">40 TL</span>
-            <span class="actual-price">80TL</span>
-          </div>
-        </div>
-        <div class="product-card">
-          <div class="product-image">
-            <span class="discount-tag">%50 indirim</span>
-            <img src="./assets/img/card10.png" alt="" />
-            <button class="card-btn">Sepete Ekle</button>
-          </div>
-          <div class="product-info">
-            <h2 class="product-brand">Marka</h2>
-            <p class="product-short-des">Mükemmel bir parça..</p>
-            <span class="price">40 TL</span>
-            <span class="actual-price">80TL</span>
-          </div>
-        </div>
-        <div class="product-card">
-          <div class="product-image">
-            <span class="discount-tag">%50 indirim</span>
-            <img src="./assets/img/card11.png" alt="" />
-            <button class="card-btn">Sepete Ekle</button>
-          </div>
-          <div class="product-info">
-            <h2 class="product-brand">Marka</h2>
-            <p class="product-short-des">Mükemmel bir parça..</p>
-            <span class="price">40 TL</span>
-            <span class="actual-price">80TL</span>
-          </div>
-        </div>
-        <div class="product-card">
-          <div class="product-image">
-            <span class="discount-tag">%50 indirim</span>
-            <img src="./assets/img/card12.png" alt="" />
-            <button class="card-btn">Sepete Ekle</button>
-          </div>
-          <div class="product-info">
-            <h2 class="product-brand">Marka</h2>
-            <p class="product-short-des">Mükemmel bir parça..</p>
-            <span class="price">40 TL</span>
-            <span class="actual-price">80TL</span>
-          </div>
-        </div>
-        <div class="product-card">
-          <div class="product-image">
-            <span class="discount-tag">%50 indirim</span>
-            <img src="./assets/img/card9.png" alt="" />
-            <button class="card-btn">Sepete Ekle</button>
-          </div>
-          <div class="product-info">
-            <h2 class="product-brand">Marka</h2>
-            <p class="product-short-des">Mükemmel bir parça..</p>
-            <span class="price">40 TL</span>
-            <span class="actual-price">80TL</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    
-
-    <footer></footer>
+      <footer></footer>
+    </div>
     <script src="js/nav.js"></script>
     <script src="js/footer.js"></script>
     <script src="js/home.js"></script>
