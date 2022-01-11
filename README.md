@@ -42,4 +42,4 @@ You can view the screenshots or watch the <a href ="https://www.youtube.com/watc
 
 # 404 Page
 
-![Screen Shot](photos-read-me/tablet404.PNG)
+![Screen Shot](photos-read-me/tablet/404.PNG)
