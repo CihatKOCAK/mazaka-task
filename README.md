@@ -14,4 +14,32 @@ Clone the project
 
 ## Screenshots
 
-You can view the pictures in the photos-readme folder or check out my short promotional <a href ="https://www.youtube.com/watch?v=-UtQE1wBPfk">video</a> on youtube.
+You can view the screenshots or watch the <a href ="https://www.youtube.com/watch?v=-UtQE1wBPfk">video</a> below.
+
+# Index
+
+![Screen Shot](photos-read-me/tablet/index-slider-tablet.PNG)
+
+![Screen Shot](photos-read-me/tablet/index-best-seller-collection-tablet.PNG)
+
+![Screen Shot](photos-read-me/tablet/index-collection-categoryPNG.PNG)
+
+![Screen Shot](photos-read-me/product-another-p.PNG)
+
+![Screen Shot](photos-read-me/tablet/product-footer.PNG)
+
+# Product
+
+![Screen Shot](photos-read-me/tablet/product-top.PNG)
+
+![Screen Shot](photos-read-me/tablet/product-desp-size.PNG)
+
+![Screen Shot](photos-read-me/tablet/product-another-p.PNG)
+
+# Search Page
+
+![Screen Shot](photos-read-me/tablet/search-top.PNG)
+
+# 404 Page
+
+![Screen Shot](photos-read-me/tablet404.PNG)
